@@ -3,7 +3,7 @@ import hashlib
 flag = 0
 counter = 0
 
-def banner():
+def author():
 	print("This Tool Is Created By Krisna Pranav")
 	print("Github Link https://www.github.com/krishpranav")
 	print("Do Not Forget To Follow Me :)")
@@ -30,8 +30,9 @@ for word in pass_file:
 		print("Password Found")
 		print("Password Is " + word)
 		flag = 1
+		author()
 		break
 
 if flag == 0:
 	print("Password/Passphrase is not in the list :( :(")
-	banner()
+	author()
